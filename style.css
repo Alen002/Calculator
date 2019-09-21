@@ -3,6 +3,18 @@ body {
     border: 0px;
 }
 
+div {
+    background-color: #F0F0F0;
+    width: 400px;
+    margin-left: 1%;
+    margin-top: 1%;
+    padding-top: 10px;
+    padding-right: 27px;
+    padding-bottom: 10px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
 ul {
     list-style: none;
 }

@@ -1,4 +1,3 @@
-
 let result = '';
 
 // Numbers for the calculation
