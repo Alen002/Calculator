@@ -9,26 +9,29 @@
     <title>Document</title>
 </head>
 <body>
-   <div>kgklrgjklre
-    <ul>
-        <li>
-            <button id='buttonDisplay'>display</button>
-        </li>
-        <li>
-            <button id='buttonClear'>Clear</button>
-        </li>
-        <li>
-            <button id='buttonOne'>1</button>
-            <button id='buttonTwo'>2</button>
-            <button id='buttonThree'>3</button>
-            <button id='buttonPlus'>+</button>
-        </li>
-        <li>
-            <button id='buttonCalc'>=</button>
-        </li>
-    </ul>
+   <div>
+        <ul>
+            <li>
+                <button id='buttonDisplay'>display</button>
+            </li>
+            <li>
+                <button id='buttonClear'>C</button>
+            </li>
+            <li>
+                <button id='buttonOne' onclick = one()>1</button>
+                <button id='buttonTwo' onclick = two()>2</button>
+                <button id='buttonThree' onclick = three()>3</button>
+                <button id='buttonPlus' value = '+' onclick = plus()>+</button>
+            </li>
+                <button id='buttonFour' onclick = four()>4</button>
+                <button id='buttonFive' onclick = five()>5</button>
+                <button id='buttonSix' onclick = six()>6</button>
+                <button id='buttonPlus' value = '-' onclick = minus()>+</button>
 
-
+            <li>
+                <button id='buttonCalc' onclick = calculate()>=</button>
+            </li>
+        </ul>
    </div> 
 
 
