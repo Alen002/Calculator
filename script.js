@@ -71,7 +71,7 @@ function divisor() {
 function calculate() {
     showResult = eval(result);
     document.getElementById('buttonDisplay').value = showResult;        
-    result = '';
+    //result = '';
 }
 
 function erase() {
