@@ -1,62 +1,80 @@
 
-let result = 0;
+let result = '';
 
-
-//document.getElementById('buttonOne').addEventListener('click', () => {result = result + 1; alert(value)})
-
-// The Numbers for the calculation
+// Numbers for the calculation
 
 function zero() {
     result = result + '0';
-    alert(result);
+    document.getElementById('buttonDisplay').value = result;
 }
 function one() {
     result = result + '1';
-    alert(result);
+    document.getElementById('buttonDisplay').value = result;
+
 }
 function two() {
     result = result + '2';
-    alert(result);
+    document.getElementById('buttonDisplay').value = result;
 }
 function three() {
     result = result + '3';
-    alert(result);
+    document.getElementById('buttonDisplay').value = result;
 }
 function four() {
     result = result + '4';
-    alert(result);
+    document.getElementById('buttonDisplay').value = result;    
 }
 function five() {
     result = result + '5';
-    alert(result);
+    document.getElementById('buttonDisplay').value = result;    
 }
 function six() {
     result = result + '6';
-    alert(result);
+    document.getElementById('buttonDisplay').value = result;    
 }
 function seven() {
     result = result + '7';
-    alert(result);
+    document.getElementById('buttonDisplay').value = result;        
 }
 function eight() {
     result = result + '8';
-    alert(result);
+    document.getElementById('buttonDisplay').value = result;        
 }
 function nine() {
     result = result + '9';
-    alert(result);
+    document.getElementById('buttonDisplay').value = result;        
+}
+function comma() {
+    result = result + '.';
+    document.getElementById('buttonDisplay').value = result;        
 }
 
 
 // Operations
 function plus() {
     result = result + '+';
-    alert(result);
+    document.getElementById('buttonDisplay').value = result;        
+}
+function minus() {
+    result = result + '-';
+    document.getElementById('buttonDisplay').value = result;        
+}
+function multiplier() {
+    result = result + '*';
+    document.getElementById('buttonDisplay').value = result;        
+}
+function divisor() {
+    result = result + '/';
+    document.getElementById('buttonDisplay').value = result;        
 }
 
-
+// Execute calculation
 function calculate() {
     showResult = eval(result);
-    alert(showResult)
+    document.getElementById('buttonDisplay').value = showResult;        
+    result = '';
+}
 
+function clear() {
+    alert('clesr')
 }

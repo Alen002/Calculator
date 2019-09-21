@@ -12,24 +12,34 @@
    <div>
         <ul>
             <li>
-                <button id='buttonDisplay'>display</button>
+                <input type='search' name='display' id='buttonDisplay'>
             </li>
             <li>
-                <button id='buttonClear'>C</button>
+                <button id='buttonClear' class='color' onclick = clear()>C</button>
             </li>
             <li>
                 <button id='buttonOne' onclick = one()>1</button>
                 <button id='buttonTwo' onclick = two()>2</button>
                 <button id='buttonThree' onclick = three()>3</button>
-                <button id='buttonPlus' value = '+' onclick = plus()>+</button>
+                <button id='buttonPlus' class='color' value = '+' onclick = plus()>+</button>
             </li>
                 <button id='buttonFour' onclick = four()>4</button>
                 <button id='buttonFive' onclick = five()>5</button>
                 <button id='buttonSix' onclick = six()>6</button>
-                <button id='buttonPlus' value = '-' onclick = minus()>+</button>
+                <button id='buttonPlus' class='color' value = '-' onclick = minus()>-</button>
 
             <li>
-                <button id='buttonCalc' onclick = calculate()>=</button>
+            </li>
+                <button id='buttonSeven' onclick = seven()>7</button>
+                <button id='buttonEight' onclick = eight()>8</button>
+                <button id='buttonNine' onclick = nine()>9</button>
+                <button id='buttonPlus' class='color' value = '*' onclick = multiplier()>*</button>
+
+            <li>
+                <button id='buttonCalc' class='color' onclick = calculate()>=</button>
+                <button id='buttonZero' onclick = zero()>0</button>
+                <button id='buttonComma' class='color' onclick = comma()>.</button>
+                <button id='buttonDiv' class='color' onclick = divisor()>/</button>
             </li>
         </ul>
    </div> 

@@ -13,17 +13,24 @@ button {
     width: 80px;
     height: 80px;
     font-size: 30px;
-    border: none;
+    border-top: 2px solid#DAD5CD;
+    border-left: 2px solid #DAD5CD;
+    border-right: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
     margin: 2px;
     outline: none;
 }
 
-#buttonDisplay {
-    width: 330px;
+input {
+    font-size: 100px;
 }
 
-div {
+.color {
+    background-color: lightsalmon;
+}
 
+#buttonDisplay {
+    width: 330px;
 }
 
 button:hover {
