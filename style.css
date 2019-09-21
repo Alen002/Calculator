@@ -21,18 +21,22 @@ button {
     outline: none;
 }
 
-input {
-    font-size: 100px;
-}
-
 .color {
     background-color: lightsalmon;
 }
 
 #buttonDisplay {
-    width: 330px;
+    width: 342px;
+    height: 50px;
+    font-size: 40px;
+    border-radius: 10px;
+    border-top: 4px solid#DAD5CD;
+    border-left: 4px solid #DAD5CD;
+    border-right: 3px solid lightgrey;
+    border-bottom: 3px solid lightgrey;
 }
 
 button:hover {
     background-color: lightgreen;
 }
+

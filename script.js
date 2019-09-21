@@ -75,6 +75,7 @@ function calculate() {
     result = '';
 }
 
-function clear() {
-    alert('clesr')
+function erase() {
+    result = '';
+    document.getElementById('buttonDisplay').value = result;
 }
